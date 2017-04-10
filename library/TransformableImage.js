@@ -154,7 +154,7 @@ export default class TransformableImage extends Component {
             }
           },
           (error) => {
-            console.error('getImageSize...error=' + JSON.stringify(error) + ', source=' + JSON.stringify(source));
+            console.warn('getImageSize...error=' + JSON.stringify(error) + ', source=' + JSON.stringify(source));
           })
       } else {
         console.warn('getImageSize...please provide pixels prop for local images');
