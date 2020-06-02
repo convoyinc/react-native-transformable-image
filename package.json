@@ -1,6 +1,6 @@
 {
   "name": "react-native-transformable-image",
-  "version": "0.0.18",
+  "version": "0.0.19-convoy-1",
   "description": "",
   "main": "library/TransformableImage.js",
   "scripts": {
